@@ -172,6 +172,11 @@ main{
    border-radius:50px 0px;
 }
 
+.main-intro  a:hover{
+    border-radius: 50px;
+    transition: all ease-in-out 0.5s;
+}
+
 /* home section  */
 .home-section{
    color: black;
