@@ -210,6 +210,7 @@ main{
   transform: translatey(-50px);
   /* margin-top: 40px; */
 }
+
 /* category section  */
 
 .content{
@@ -220,12 +221,12 @@ main{
 }
 
 .content h2{
-    font-size: 40px;
+    font-size: 90px;
     font-weight: 400;
 }
 
 .content p{
-    font-size: 20px;
+    font-size: 100px;
 }
 
 .about-category{
@@ -327,7 +328,7 @@ main{
 }
 
 .about-img img:hover{
-    transform: skew(30deg , 10deg);
+    transform:scale(1.1);
 }
 
 
@@ -370,7 +371,7 @@ main{
 /* footer section  */
 
 .footer-section{
-    background-color:blue;
+    background-color:var(--section-color);
     width: 100%;
     padding: 60px 0px 100px;
     color: white;
@@ -426,7 +427,7 @@ main{
     height: 40px; 
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
+    margin-left: 170px;
 }
 
 .footer-site-map ul:nth-child(3){
