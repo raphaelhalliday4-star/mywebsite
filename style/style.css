@@ -231,7 +231,8 @@ main{
 }
 
 .content p{
-    font-size: 100px;
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 .about-category{
